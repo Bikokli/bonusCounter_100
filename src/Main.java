@@ -3,7 +3,7 @@ public class Main {
         int refill = 100;
         int customerAccount = 100;
         final int converter = 100;
-        final int discountConditions = 1000;
+        final int discountConditions = 10000;
         if (refill >= discountConditions) {
             int bonus = (refill / converter);
             customerAccount += bonus + refill;
